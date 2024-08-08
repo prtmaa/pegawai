@@ -201,8 +201,8 @@
 
         $(document).ready(function() {
             $('#jabatan').select2({
+                $('.modal select').css('width', '100%');
                 dropdownParent: $('#modal-form'),
-                width: 'resolve'
             });
         });
 
